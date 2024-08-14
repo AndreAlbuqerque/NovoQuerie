@@ -4,6 +4,6 @@
 
 body {
     background: url(../imagens/cev-portrait.jpg);
-    background-position: center bottom ;
+    background-position: center bottom ; /* posição da imagem no centro ao final */
 }
 
