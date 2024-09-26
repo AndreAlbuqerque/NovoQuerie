@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*Versão Mobile Frist */ 
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+   
+    height: 100vh;
+
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover ; /*imagem cobre o conteiner todo*/ 
+    background-position: center center;
+
+}
+
+main {
+
+    background-color: rgba(255, 255, 255, 0.596);
+    width: 90vw;
+    margin: auto;  /*Centralizado*/
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.719);
+}
+
+img {
+    display: block; 
+    /*display: block; é uma propriedade de CSS usada para definir como um elemento deve ser exibido na página. Quando aplicada a um elemento, essa propriedade faz com que o elemento se comporte como um bloco.*/
+    margin: auto;
+
+}
+
+img#phone {display:block;}
+img#tablete { display: none;}
+img#print {display: none;}     /*So mostra a imagem que tem o block e n msotra as que tem none*/
+img#pc {display: none;}
+img#tv {display: none;}
