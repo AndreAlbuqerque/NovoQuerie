@@ -35,7 +35,7 @@ span#burger:hover {
 }
 
 menu {
-    display: none; /*O elemento se estende para ocupar toda a largura do seu contêiner pai, começo de um a nova linha*/ 
+    display: none; /*O elemento quando esta em block se estende para ocupar toda a largura do seu contêiner pai, começo de um a nova linha. E se estiver em none não aparece*/ 
 }
 
 menu > ul {
