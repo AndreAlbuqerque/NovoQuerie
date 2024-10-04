@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(180, 177, 177);
+    
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+span#burger { /*goolge icons*/
+    background-color: rgb(99, 96, 96);
+    display: block;/*nesse caso faz com que a linha toda seja preenchida*/
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer; /*Faz o cursor virar clicavel*/ 
+}
+
+span#burger:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none; /*O elemento quando esta em block se estende para ocupar toda a largura do seu contêiner pai, começo de um a nova linha. E se estiver em none não aparece*/ 
+}
+
+menu > ul {
+    list-style-type: none; /*Para tirar as bolinhas do menu*/
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none; /*Tirar sublinhado*/
+    text-align: center;
+    background-color: rgb(102, 101, 101);
+    color: white;
+    border-top: 2px solid gray; /*Cor da borda*/ 
+
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto; /* Centralizar o bloco*/
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px; /*Espaçamento nos paragrafos*/ 
+}
